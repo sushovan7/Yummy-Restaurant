@@ -43,11 +43,52 @@ body {
   font-weight: 500;
 }
 
+.nav-links{
+  display: none;
+  position: relative;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 10%;
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 55;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.cross{
+position: absolute;
+top: 50px;
+right: 5vw;
+}
+
+.cross-btn{
+  font-size: 45px;
+  padding: 0 15px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
 .nav a {
   text-decoration: none;
   color: white;
 }
-
+.nav span {
+  cursor: pointer;
+}
 .nav span img {
   height: 50px;
 }
