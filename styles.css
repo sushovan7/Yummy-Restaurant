@@ -96,7 +96,6 @@ right: 5vw;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./photos/photo8.avif);
-  height: 90vh;
   width: 100%;
   background-size: cover !important;
   background-position: center;
@@ -1442,5 +1441,77 @@ opacity: 0.7;
   background: #000;
   padding: 3.33vw 1.67vw;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}/* about page */
+
+
+
+.about {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 4vw 3vw 3vw 4vw;
 }
+
+.about-us {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.about h3 {
+  color: #ffd71b;
+  margin-bottom: 10px;
+}
+
+.about h1 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.about p {
+  max-width: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.main-containers {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 4vw 3vw 3vw 4vw;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 60px; */
+  padding: 4vw 3vw 3vw 4vw;
+}
+
+.main-details h5{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.main-details .yellow-line{
+  width: 50px;
+  border-color: #ffd71b;
+  margin-bottom: 15px;
+}
+
+.main-details h2{
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.main-details p{
+  max-width: 100%;
+  font-size: 20px;
+}
+
+
+
 }
